@@ -13,7 +13,6 @@
     "boilerplate"
   ],
   "devDependencies": {
-    "axios": "^0.18.0",
     "suppose": "^0.6.2"
   }
 }
