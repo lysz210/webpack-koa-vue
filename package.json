@@ -2,9 +2,18 @@
   "name": "webpack-koa-vue",
   "version": "0.0.1",
   "description": "Template to build full-stack koa-vue with webpack.",
-  "main": "index.js",
+  "main": "meta.js",
   "repository": "git@github.com:lysz210/webpack-koa-vue.git",
   "author": "Lingyong Sun <lysz210@gmaill.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "keywords": [
+    "koa",
+    "vue",
+    "boilerplate"
+  ],
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "suppose": "^0.6.2"
+  }
 }
