@@ -47,7 +47,7 @@ module.exports = {
         'vue-router': '^3.0.1',
         'vuex': '^3.0.1'
       }
-      return ',\n' + pluginNames.map(plugin => (`    "${plugin}": "${dependencies[plugin]}"`)).join(',\n')
+      return pluginNames.map(plugin => (`    "${plugin}": "${dependencies[plugin]}"`)).join(',\n') + ','
     }
   },
   complete (data) {
