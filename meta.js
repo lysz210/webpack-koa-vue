@@ -2,7 +2,6 @@
 
 const { join } = require('path')
 const { readFileSync, writeFileSync } = require('fs')
-const axios = require('axios')
 
 const githubAPI = axios.create({
   baseURL: 'https://api.github.com/repos/lysz20/'
