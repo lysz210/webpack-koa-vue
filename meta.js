@@ -2,15 +2,6 @@
 
 const { join } = require('path')
 const { readFileSync, writeFileSync } = require('fs')
-const axios = require('axios')
-
-const githubAPI = axios.create({
-  baseURL: 'https://api.github.com/repos/lysz20/'
-})
-
-async function getCurrentSHA (author) {
-
-}
 
 const pluginDependencies = {
   'axios': '^0.18.0',
