@@ -3,14 +3,6 @@
 const { join } = require('path')
 const { readFileSync, writeFileSync } = require('fs')
 
-const githubAPI = axios.create({
-  baseURL: 'https://api.github.com/repos/lysz20/'
-})
-
-async function getCurrentSHA (author) {
-
-}
-
 module.exports = {
   prompts: {
     name: {
